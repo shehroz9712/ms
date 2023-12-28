@@ -1,0 +1,6 @@
+<head>
+
+
+
+    @yield('css')
+</head>
