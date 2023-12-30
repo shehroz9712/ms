@@ -19,42 +19,43 @@ class IndexController extends Controller
     public function index()
     {
 
+        return view('front.index');
+        // $page = Page::where('slug', 'home')->first();
+        // if (!$page) {
+        //     return view('front.404'); // Render your custom 404 error page view
+        // }
+        // $faqs_result = Faq::where('page_id', $page->id)->get();
 
-        $page = Page::where('slug', 'home')->first();
-        if (!$page) {
-            return view('front.404'); // Render your custom 404 error page view
-        }
-        $faqs_result = Faq::where('page_id', $page->id)->get();
-
-        return view('front.index', compact('page', 'faqs_result', 'faqs_result'));
+        // return view('front.index', compact('page', 'faqs_result', 'faqs_result'));
     }
 
     public function about()
     {
+        return view('front.about');
+        // $page = Page::where('slug', 'about')->first();
+        // if (!$page) {
+        //     return view('front.404'); // Render your custom 404 error page view
+        // }
+        // $faqs_result = Faq::where('page_id', $page->id)->get();
 
-        $page = Page::where('slug', 'about')->first();
-        if (!$page) {
-            return view('front.404'); // Render your custom 404 error page view
-        }
-        $faqs_result = Faq::where('page_id', $page->id)->get();
-
-        return view('front.about', compact('page', 'faqs_result'));
+        // return view('front.about', compact('page', 'faqs_result'));
     }
 
     public function services()
     {
+        return view('front.services');
+        // $page = Page::where('slug', 'services')->first();
+        // if (!$page) {
+        //     return view('front.404'); // Render your custom 404 error page view
+        // }
+        // $faqs_result = Faq::where('page_id', $page->id)->get();
 
-        $page = Page::where('slug', 'services')->first();
-        if (!$page) {
-            return view('front.404'); // Render your custom 404 error page view
-        }
-        $faqs_result = Faq::where('page_id', $page->id)->get();
-
-        return view('front.services', compact('page', 'faqs_result'));
+        // return view('front.services', compact('page', 'faqs_result'));
     }
 
     public function service($slug)
     {
+        
         $service = Service::Active()->where('slug', $slug)->with('innerService')->first();
         $faqs_result = Faq::where('service_id', $service->id)->get();
 
@@ -97,16 +98,16 @@ class IndexController extends Controller
 
     public function blogs()
     {
+        return view('front.blogs');
+    //     $page = Page::where('slug', 'blogs')->first();
+    //     if (!$page) {
+    //         return view('front.404'); // Render your custom 404 error page view
+    //     }
+    //     $faqs_result = Faq::where('page_id', $page->id)->get();
 
-        $page = Page::where('slug', 'blogs')->first();
-        if (!$page) {
-            return view('front.404'); // Render your custom 404 error page view
-        }
-        $faqs_result = Faq::where('page_id', $page->id)->get();
-
-        $blogs = Blog::Active()->get();
-        return view('front.blogs', compact('page', 'blogs', 'faqs_result'));
-    }
+    //     $blogs = Blog::Active()->get();
+    //     return view('front.blogs', compact('page', 'blogs', 'faqs_result'));
+     }
 
     public function blog($slug)
     {
@@ -118,27 +119,27 @@ class IndexController extends Controller
 
     public function contact()
     {
+        return view('front.contact');
+        // $page = Page::where('slug', 'contact')->first();
+        // if (!$page) {
+        //     return view('front.404'); // Render your custom 404 error page view
+        // }
+        // $faqs_result = Faq::where('page_id', $page->id)->get();
 
-        $page = Page::where('slug', 'contact')->first();
-        if (!$page) {
-            return view('front.404'); // Render your custom 404 error page view
-        }
-        $faqs_result = Faq::where('page_id', $page->id)->get();
-
-        return view('front.contact', compact('page', 'faqs_result'));
+        // return view('front.contact', compact('page', 'faqs_result'));
     }
 
     public function page($slug)
     {
+        return view('front.pages');
+        // $page = Page::where('slug', $slug)->first();
+        // if (!$page) {
+        //     return view('front.404'); // Render your custom 404 error page view
+        // }
 
-        $page = Page::where('slug', $slug)->first();
-        if (!$page) {
-            return view('front.404'); // Render your custom 404 error page view
-        }
+        // $faqs_result = Faq::where('page_id', $page->id)->get();
 
-        $faqs_result = Faq::where('page_id', $page->id)->get();
-
-        return view('front.pages', compact('page', 'faqs_result'));
+        // return view('front.pages', compact('page', 'faqs_result'));
     }
 
 
