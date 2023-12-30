@@ -36,9 +36,9 @@
                     <div class="col-lg-5">
                         <div class="author-image-part wow fadeIn delay-0-3s">
                             <div class="bg-circle"></div>
-                            <img src="{{ asset('assets/front/images/hero/me.png') }}" alt="Author">
+                            <img src="{{ frontImage('hero/me.png') }}" alt="Author">
                             <div class="progress-shape">
-                                <img src="{{ asset('assets/front/images/hero/progress-shape.png') }}" alt="Progress">
+                                <img src="{{ frontImage('hero/progress-shape.png') }}" alt="Progress">
                             </div>
                         </div>
                     </div>
@@ -93,19 +93,19 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="about-image-part wow fadeInUp delay-0-3s">
-                                <img src="{{ asset('assets/front/images/about/about.jpg') }}" alt="About Me">
+                                <img src="{{ frontImage('about/about.jpg') }}" alt="About Me">
                                 <div class="about-btn btn-one wow fadeInRight delay-0-4s">
-                                    <img src="{{ asset('assets/front/images/about/btn-image1.png') }}" alt="Image">
+                                    <img src="{{ frontImage('about/btn-image1.png') }}" alt="Image">
                                     <h6>Experience Designer</h6>
                                     <i class="fas fa-arrow-right"></i>
                                 </div>
                                 <div class="about-btn btn-two wow fadeInRight delay-0-5s">
-                                    <img src="{{ asset('assets/front/images/about/btn-image2.png') }}" alt="Image">
+                                    <img src="{{ frontImage('about/btn-image2.png') }}" alt="Image">
                                     <h6>Mark J. Collins</h6>
                                     <i class="fas fa-arrow-right"></i>
                                 </div>
                                 <div class="dot-shape">
-                                    <img src="{{ asset('assets/front/images/shape/about-dot.png') }}" alt="Shape">
+                                    <img src="{{ frontImage('shape/about-dot.png') }}" alt="Shape">
                                 </div>
                             </div>
                         </div>
@@ -312,56 +312,56 @@
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-2s">
-                                            <img src="{{ asset('assets/front/images/skills/skill1.png') }}" alt="Skill">
+                                            <img src="{{ frontImage('skills/skill1.png') }}" alt="Skill">
                                             <h5>Figma</h5>
                                             <span class="percent">95%</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-3s">
-                                            <img src="{{ asset('assets/front/images/skills/skill2.png') }}" alt="Skill">
+                                            <img src="{{ frontImage('skills/skill2.png') }}" alt="Skill">
                                             <h5>Figma</h5>
                                             <span class="percent">83</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-4s">
-                                            <img src="{{ asset('assets/front/images/skills/skill3.png') }}" alt="Skill">
+                                            <img src="{{ frontImage('skills/skill3.png') }}" alt="Skill">
                                             <h5>Figma</h5>
                                             <span class="percent">93%</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-5s">
-                                            <img src="{{ asset('assets/front/images/skills/skill4.png') }}" alt="Skill">
+                                            <img src="{{ frontImage('skills/skill4.png') }}" alt="Skill">
                                             <h5>Figma</h5>
                                             <span class="percent">84%</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-2s">
-                                            <img src="{{ asset('assets/front/images/skills/skill5.png') }}" alt="Skill">
+                                            <img src="{{ frontImage('skills/skill5.png') }}" alt="Skill">
                                             <h5>Figma</h5>
                                             <span class="percent">65%</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-3s">
-                                            <img src="{{ asset('assets/front/images/skills/skill6.png') }}" alt="Skill">
+                                            <img src="{{ frontImage('skills/skill6.png') }}" alt="Skill">
                                             <h5>Figma</h5>
                                             <span class="percent">86%</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-4s">
-                                            <img src="{{ asset('assets/front/images/skills/skill7.png') }}" alt="Skill">
+                                            <img src="{{ frontImage('skills/skill7.png') }}" alt="Skill">
                                             <h5>Figma</h5>
                                             <span class="percent">62%</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-5s">
-                                            <img src="{{ asset('assets/front/images/skills/skill8.png') }}" alt="Skill">
+                                            <img src="{{ frontImage('skills/skill8.png') }}" alt="Skill">
                                             <h5>Figma</h5>
                                             <span class="percent">94%</span>
                                         </div>
@@ -397,7 +397,7 @@
                 <div class="row align-items-center pb-25">
                     <div class="col-lg-6">
                         <div class="project-image wow fadeInLeft delay-0-2s">
-                            <img src="{{ asset('assets/front/images/projects/project1.jpg') }}" alt="Project">
+                            <img src="{{ frontImage('projects/project1.jpg') }}" alt="Project">
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6">
@@ -412,7 +412,7 @@
                 <div class="row align-items-center pb-25">
                     <div class="col-lg-6 order-lg-2">
                         <div class="project-image wow fadeInLeft delay-0-2s">
-                            <img src="{{ asset('assets/front/images/projects/project2.jpg') }}" alt="Project">
+                            <img src="{{ frontImage('projects/project2.jpg') }}" alt="Project">
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6 ms-auto">
@@ -427,7 +427,7 @@
                 <div class="row align-items-center pb-25">
                     <div class="col-lg-6">
                         <div class="project-image wow fadeInLeft delay-0-2s">
-                            <img src="{{ asset('assets/front/images/projects/project3.jpg') }}" alt="Project">
+                            <img src="{{ frontImage('projects/project3.jpg') }}" alt="Project">
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6">
@@ -442,7 +442,7 @@
                 <div class="row align-items-center pb-25">
                     <div class="col-lg-6 order-lg-2">
                         <div class="project-image wow fadeInLeft delay-0-2s">
-                            <img src="{{ asset('assets/front/images/projects/project4.jpg') }}" alt="Project">
+                            <img src="{{ frontImage('projects/project4.jpg') }}" alt="Project">
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6 ms-auto">
@@ -491,7 +491,7 @@
                             <div class="testimonials-wrap">
                                 <div class="testimonial-item wow fadeInUp delay-0-3s">
                                     <div class="author">
-                                        <img src="{{ asset('assets/front/images/testimonials/author1.png') }}" alt="Author">
+                                        <img src="{{ frontImage('testimonials/author1.png') }}" alt="Author">
                                     </div>
                                     <div class="text">At vero eoset accusamus et iusto odio dignissimos ducimus quie blanditiis praesentium voluptatum deleniti atque corrupti dolores</div>
                                     <div class="testi-des">
@@ -501,7 +501,7 @@
                                 </div>
                                 <div class="testimonial-item wow fadeInUp delay-0-4s">
                                     <div class="author">
-                                        <img src="{{ asset('assets/front/images/testimonials/author2.png') }}" alt="Author">
+                                        <img src="{{ frontImage('testimonials/author2.png') }}" alt="Author">
                                     </div>
                                     <div class="text">Nam libero tempore cumsoluta nobise est eligendi optio cumque nihil impedit quominus idquod maxime placeat facere possimus</div>
                                     <div class="testi-des">
@@ -511,7 +511,7 @@
                                 </div>
                                 <div class="testimonial-item wow fadeInUp delay-0-2s">
                                     <div class="author">
-                                        <img src="{{ asset('assets/front/images/testimonials/author1.png') }}" alt="Author">
+                                        <img src="{{ frontImage('testimonials/author1.png') }}" alt="Author">
                                     </div>
                                     <div class="text">At vero eoset accusamus et iusto odio dignissimos ducimus quie blanditiis praesentium voluptatum deleniti atque corrupti dolores</div>
                                     <div class="testi-des">
@@ -521,7 +521,7 @@
                                 </div>
                                 <div class="testimonial-item wow fadeInUp delay-0-2s">
                                     <div class="author">
-                                        <img src="{{ asset('assets/front/images/testimonials/author2.png') }}" alt="Author">
+                                        <img src="{{ frontImage('testimonials/author2.png') }}" alt="Author">
                                     </div>
                                     <div class="text">Nam libero tempore cumsoluta nobise est eligendi optio cumque nihil impedit quominus idquod maxime placeat facere possimus</div>
                                     <div class="testi-des">
@@ -731,7 +731,7 @@
                         <div class="col-lg-6">
                             <div class="blog-item wow fadeInUp delay-0-2s">
                                 <div class="image">
-                                    <img src="{{ asset('assets/front/images/blog/blog1.png') }}" alt="Blog">
+                                    <img src="{{ frontImage('blog/blog1.png') }}" alt="Blog">
                                 </div>
                                 <div class="content">
                                     <div class="blog-meta mb-35">
@@ -749,7 +749,7 @@
                         <div class="col-lg-6">
                             <div class="blog-item wow fadeInUp delay-0-2s">
                                 <div class="image">
-                                    <img src="{{ asset('assets/front/images/blog/blog2.png') }}" alt="Blog">
+                                    <img src="{{ frontImage('blog/blog2.png') }}" alt="Blog">
                                 </div>
                                 <div class="content">
                                     <div class="blog-meta mb-35">
@@ -789,34 +789,34 @@
                 </div>
                 <div class="client-logo-wrap">
                     <a class="client-logo-item wow fadeInUp delay-0-2s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo1.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo1.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-3s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo2.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo2.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-4s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo3.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo3.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-5s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo4.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo4.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-6s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo5.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo5.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-2s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo6.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo6.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-3s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo7.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo7.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-4s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo8.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo8.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-5s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo9.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo9.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-6s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo10.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo10.png') }}" alt="Client Logo">
                     </a>
                 </div>
             </div>

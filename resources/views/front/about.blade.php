@@ -29,7 +29,7 @@
         <div class="about-main-image-area pt-40">
             <div class="container">
                 <div class="about-main-image wow fadeInUp delay-0-5s">
-                    <img src="{{ asset('assets/front/images/about/about-page.jpg') }}" alt="About Page">
+                    <img src="{{ frontImage('about/about-page.jpg') }}" alt="About Page">
                 </div>
             </div>
         </div>
@@ -62,25 +62,25 @@
                                 <h5>Years Of Experience</h5>
                             </div>
                             <div class="about-btn one wow fadeInRight delay-0-4s">
-                                <img src="{{ asset('assets/front/images/about/btn-image1.png') }}" alt="Image">
+                                <img src="{{ frontImage('about/btn-image1.png') }}" alt="Image">
                                 <h6>Experience Designer</h6>
                                 <i class="fas fa-arrow-right"></i>
                             </div>
                             <div class="about-btn two wow fadeInRight delay-0-5s">
-                                <img src="{{ asset('assets/front/images/about/btn-image2.png') }}" alt="Image">
+                                <img src="{{ frontImage('about/btn-image2.png') }}" alt="Image">
                                 <h6>Mark J. Collins</h6>
                                 <i class="fas fa-arrow-right"></i>
                             </div>
                             <div class="about-btn three wow fadeInRight delay-0-4s">
-                                <img src="{{ asset('assets/front/images/about/btn-image1.png') }}" alt="Image">
+                                <img src="{{ frontImage('about/btn-image1.png') }}" alt="Image">
                                 <h6>Experience Designer</h6>
                                 <i class="fas fa-arrow-right"></i>
                             </div>
                             <div class="dot-shape one">
-                                <img src="{{ asset('assets/front/images/shape/about-dots-two.png') }}" alt="Shape">
+                                <img src="{{ frontImage('shape/about-dots-two.png') }}" alt="Shape">
                             </div>
                             <div class="dot-shape two">
-                                <img src="{{ asset('assets/front/images/shape/about-dots-two.png') }}" alt="Shape">
+                                <img src="{{ frontImage('shape/about-dots-two.png') }}" alt="Shape">
                             </div>
                         </div>
                     </div>
@@ -189,10 +189,10 @@
                     <div class="col-lg-6">
                         <div class="faq-image-part rmb-55 wow fadeInUp delay-0-2s">
                             <div class="image-one">
-                                <img src="{{ asset('assets/front/images/faqs/faq-one.jpg') }}" alt="FAQ">
+                                <img src="{{ frontImage('faqs/faq-one.jpg') }}" alt="FAQ">
                             </div>
                             <div class="image-two">
-                                <img src="{{ asset('assets/front/images/faqs/faq-two.jpg') }}" alt="FAQ">
+                                <img src="{{ frontImage('faqs/faq-two.jpg') }}" alt="FAQ">
                             </div>
                             <div class="square-shape"></div>
                         </div>
@@ -289,7 +289,7 @@
                             <div class="testimonials-wrap">
                                 <div class="testimonial-item wow fadeInUp delay-0-3s">
                                     <div class="author">
-                                        <img src="{{ asset('assets/front/images/testimonials/author1.png') }}" alt="Author">
+                                        <img src="{{ frontImage('testimonials/author1.png') }}" alt="Author">
                                     </div>
                                     <div class="text">At vero eoset accusamus et iusto odio dignissimos ducimus quie blanditiis praesentium voluptatum deleniti atque corrupti dolores</div>
                                     <div class="testi-des">
@@ -299,7 +299,7 @@
                                 </div>
                                 <div class="testimonial-item wow fadeInUp delay-0-4s">
                                     <div class="author">
-                                        <img src="{{ asset('assets/front/images/testimonials/author2.png') }}" alt="Author">
+                                        <img src="{{ frontImage('testimonials/author2.png') }}" alt="Author">
                                     </div>
                                     <div class="text">Nam libero tempore cumsoluta nobise est eligendi optio cumque nihil impedit quominus idquod maxime placeat facere possimus</div>
                                     <div class="testi-des">
@@ -309,7 +309,7 @@
                                 </div>
                                 <div class="testimonial-item wow fadeInUp delay-0-2s">
                                     <div class="author">
-                                        <img src="{{ asset('assets/front/images/testimonials/author1.png') }}" alt="Author">
+                                        <img src="{{ frontImage('testimonials/author1.png') }}" alt="Author">
                                     </div>
                                     <div class="text">At vero eoset accusamus et iusto odio dignissimos ducimus quie blanditiis praesentium voluptatum deleniti atque corrupti dolores</div>
                                     <div class="testi-des">
@@ -319,7 +319,7 @@
                                 </div>
                                 <div class="testimonial-item wow fadeInUp delay-0-2s">
                                     <div class="author">
-                                        <img src="{{ asset('assets/front/images/testimonials/author2.png') }}" alt="Author">
+                                        <img src="{{ frontImage('testimonials/author2.png') }}" alt="Author">
                                     </div>
                                     <div class="text">Nam libero tempore cumsoluta nobise est eligendi optio cumque nihil impedit quominus idquod maxime placeat facere possimus</div>
                                     <div class="testi-des">
@@ -355,34 +355,34 @@
                 </div>
                 <div class="client-logo-wrap">
                     <a class="client-logo-item wow fadeInUp delay-0-2s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo1.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo1.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-3s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo2.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo2.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-4s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo3.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo3.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-5s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo4.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo4.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-6s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo5.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo5.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-2s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo6.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo6.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-3s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo7.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo7.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-4s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo8.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo8.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-5s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo9.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo9.png') }}" alt="Client Logo">
                     </a>
                     <a class="client-logo-item wow fadeInUp delay-0-6s" href="contact.html">
-                        <img src="{{ asset('assets/front/images/client-logos/client-logo10.png') }}" alt="Client Logo">
+                        <img src="{{ frontImage('client-logos/client-logo10.png') }}" alt="Client Logo">
                     </a>
                 </div>
             </div>
