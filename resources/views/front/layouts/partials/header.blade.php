@@ -32,9 +32,9 @@
 
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
-                                    <li class="{{ request()->routeIs('index') ? 'active' : '' }}">
-                                        <a href="{{ route('index') }}">Home</a>
-                                    </li>
+                                        <li class="{{ request()->routeIs('index') ? 'active' : '' }}">
+                                            <a href="{{ route('index') }}">Home</a>
+                                        </li>
 
                                         <li><a href="{{ route('about') }}">About</a></li>
                                         <li><a href="{{ route('services') }}">Services</a></li>

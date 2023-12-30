@@ -61,7 +61,17 @@ class IndexController extends Controller
 
         return view('front.service', compact('service', 'faqs_result'));
     }
+    public function projects()
+    {
+        return view('front.projects');
+        // $page = Page::where('slug', 'project')->first();
+        // if (!$page) {
+        //     return view('front.404'); // Render your custom 404 error page view
+        // }
+        // $faqs_result = Faq::where('page_id', $page->id)->get();
 
+        // return view('front.project', compact('page', 'faqs_result'));
+    }
     public function portfolio()
     {
 
@@ -159,5 +169,16 @@ class IndexController extends Controller
 
         // Redirect back with a success message
         return redirect()->back()->with('success', 'Message sent successfully!');
+    }
+    public function faqs()
+    {
+        return view('front.faq');
+        // $page = Page::where('slug', 'project')->first();
+        // if (!$page) {
+        //     return view('front.404'); // Render your custom 404 error page view
+        // }
+        // $faqs_result = Faq::where('page_id', $page->id)->get();
+
+        // return view('front.project', compact('page', 'faqs_result'));
     }
 }

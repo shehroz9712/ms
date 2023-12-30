@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::fallback(function () {
-    return view('front.404'); // Replace 'errors.404' with the path to your custom 404 error view
-});
+// Route::fallback(function () {
+//     return view('front.404'); // Replace 'errors.404' with the path to your custom 404 error view
+// });
 
 
 
@@ -34,3 +34,5 @@ Route::post('/contact', 'IndexController@send')->name('send');
 Route::get('contact', 'IndexController@contact')->name('contact');
 Route::get('resume/download', 'IndexController@download')->name('resume.download');
 Route::get('{slug}', 'IndexController@page')->name('page');
+
+Route::get('faq', 'IndexController@faqs')->name('faq');

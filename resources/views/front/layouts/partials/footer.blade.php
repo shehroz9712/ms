@@ -15,11 +15,11 @@
                             <div class="footer-widget widget_nav_menu wow fadeInUp delay-0-4s">
                                 <h6 class="footer-title">Quick Link</h6>
                                 <ul>
-                                    <li><a href="services.html">Service</a></li>
-                                    <li><a href="projects.html">Projects</a></li>
-                                    <li><a href="services.html#pricing">Pricing</a></li>
-                                    <li><a href="about.html#faqs">Faqs</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="{{ route('services') }}">Service</a></li>
+                                    <li><a href="{{ route('blogs') }}">Blog</a>
+                                    <li><a href="{{ route('projects') }}">Projects</a></li>
+                                    <li><a href="{{ route('faq') }}">Faqs</a></li>
+                                    <li><a href="{{ route('contact') }}">Contact</a></li>
                                 </ul>
                             </div>
                             <div class="footer-widget widget_newsletter wow fadeInUp delay-0-4s">
