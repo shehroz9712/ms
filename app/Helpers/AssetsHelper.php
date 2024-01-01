@@ -76,7 +76,7 @@ function frontFont($file = '')
  */
 function frontImage($file = '')
 {
-    return asset('assets/front/image/' . $file);
+    return asset('assets/front/images/' . $file);
 }
 
 

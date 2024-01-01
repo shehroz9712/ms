@@ -13,7 +13,7 @@
             <div class="container">
                 <div class="error-content">
                     <div class="image mb-85 rmb-55 wow fadeInUp delay-0-2s">
-                    <img src="{{ asset('assets/front/images/shape/404-error.png') }}" alt="Error">
+                    <img src="{{ frontImage('shape/404-error.png') }}" alt="Error">
                     </div>
                     <div class="section-title mb-40 wow fadeInUp delay-0-2s">
                         <h1>OPPS!</h1>

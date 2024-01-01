@@ -40,7 +40,7 @@
                                 <div class="col-md-6 item">
                                     <div class="blog-item style-two wow fadeInUp delay-0-2s">
                                         <div class="image">
-                                            <img src="{{ asset('assets/front/images/blog/blog-standard1.jpg') }}" alt="Blog Standard">
+                                            <img src="{{ frontImage('blog/blog-standard1.jpg') }}" alt="Blog Standard">
                                         </div>
                                         <div class="content">
                                             <div class="blog-meta mb-20">
@@ -58,7 +58,7 @@
                                 <div class="col-md-6 item">
                                     <div class="blog-item style-two wow fadeInUp delay-0-4s">
                                         <div class="image">
-                                            <img src="{{ asset('assets/front/images/blog/blog-standard2.jpg') }}" alt="Blog Standard">
+                                            <img src="{{ frontImage('blog/blog-standard2.jpg') }}" alt="Blog Standard">
                                         </div>
                                         <div class="content">
                                             <div class="blog-meta mb-20">
@@ -76,7 +76,7 @@
                                 <div class="col-md-6 item">
                                     <div class="blog-item style-two wow fadeInUp delay-0-2s">
                                         <div class="image">
-                                            <img src="{{ asset('assets/front/images/blog/blog-standard3.jpg') }}" alt="Blog Standard">
+                                            <img src="{{ frontImage('blog/blog-standard3.jpg') }}" alt="Blog Standard">
                                         </div>
                                         <div class="content">
                                             <div class="blog-meta mb-20">
@@ -94,7 +94,7 @@
                                 <div class="col-md-6 item">
                                     <div class="blog-item style-two wow fadeInUp delay-0-4s">
                                         <div class="image">
-                                            <img src="{{ asset('assets/front/images/blog/blog-standard4.jpg') }}" alt="Blog Standard">
+                                            <img src="{{ frontImage('blog/blog-standard4.jpg') }}" alt="Blog Standard">
                                         </div>
                                         <div class="content">
                                             <div class="blog-meta mb-20">
@@ -112,7 +112,7 @@
                                 <div class="col-md-6 item">
                                     <div class="blog-item style-two wow fadeInUp delay-0-2s">
                                         <div class="image">
-                                            <img src="{{ asset('assets/front/images/blog/blog-standard5.jpg') }}" alt="Blog Standard">
+                                            <img src="{{ frontImage('blog/blog-standard5.jpg') }}" alt="Blog Standard">
                                         </div>
                                         <div class="content">
                                             <div class="blog-meta mb-20">
@@ -130,7 +130,7 @@
                                 <div class="col-md-6 item">
                                     <div class="blog-item style-two wow fadeInUp delay-0-4s">
                                         <div class="image">
-                                            <img src="{{ asset('assets/front/images/blog/blog-standard6.jpg') }}" alt="Blog Standard">
+                                            <img src="{{ frontImage('blog/blog-standard6.jpg') }}" alt="Blog Standard">
                                         </div>
                                         <div class="content">
                                             <div class="blog-meta mb-20">
@@ -148,7 +148,7 @@
                                 <div class="col-md-6 item">
                                     <div class="blog-item style-two wow fadeInUp delay-0-2s">
                                         <div class="image">
-                                            <img src="{{ asset('assets/front/images/blog/blog-standard7.jpg') }}" alt="Blog Standard">
+                                            <img src="{{ frontImage('blog/blog-standard7.jpg') }}" alt="Blog Standard">
                                         </div>
                                         <div class="content">
                                             <div class="blog-meta mb-20">
@@ -166,7 +166,7 @@
                                 <div class="col-md-6 item">
                                     <div class="blog-item style-two wow fadeInUp delay-0-4s">
                                         <div class="image">
-                                            <img src="{{ asset('assets/front/images/blog/blog-standard8.jpg') }}" alt="Blog Standard">
+                                            <img src="{{ frontImage('blog/blog-standard8.jpg') }}" alt="Blog Standard">
                                         </div>
                                         <div class="content">
                                             <div class="blog-meta mb-20">
@@ -214,7 +214,7 @@
                                 <ul>
                                     <li>
                                         <div class="image">
-                                            <img src="{{ asset('assets/front/images/widgets/news1.jpg') }}" alt="News">
+                                            <img src="{{ frontImage('widgets/news1.jpg') }}" alt="News">
                                         </div>
                                         <div class="content">
                                             <div class="blog-meta mb-5">
@@ -225,7 +225,7 @@
                                     </li>
                                     <li>
                                         <div class="image">
-                                            <img src="{{ asset('assets/front/images/widgets/news2.jpg') }}" alt="News">
+                                            <img src="{{ frontImage('widgets/news2.jpg') }}" alt="News">
                                         </div>
                                         <div class="content">
                                             <div class="blog-meta mb-5">
@@ -236,7 +236,7 @@
                                     </li>
                                     <li>
                                         <div class="image">
-                                            <img src="{{ asset('assets/front/images/widgets/news3.jpg') }}" alt="News">
+                                            <img src="{{ frontImage('widgets/news3.jpg') }}" alt="News">
                                         </div>
                                         <div class="content">
                                             <div class="blog-meta mb-5">

@@ -40,10 +40,10 @@
                     <div class="col-lg-6">
                         <div class="what-i-do-images rmb-55 wow fadeInUp delay-0-2s">
                             <div class="first-image">
-                                <img src="{{ asset('assets/front/images/about/what-i-do1.jpg') }}" alt="What I do">
+                                <img src="{{ frontImage('about/what-i-do1.jpg') }}" alt="What I do">
                             </div>
                             <div class="last-image">
-                                <img src="{{ asset('assets/front/images/about/what-i-do2.jpg') }}" alt="What I do">
+                                <img src="{{ frontImage('about/what-i-do2.jpg') }}" alt="What I do">
                             </div>
                             <div class="icon first"><i class="flaticon-asterisk-1"></i></div>
                             <div class="icon last"><i class="flaticon-asterisk-1"></i></div>
